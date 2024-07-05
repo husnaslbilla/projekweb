@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Nusantara Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="img/icons/font-awesome/css/font-awesome.min.css" />
+    <style>
+        body {
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .navbar img#logo {
+            height: 50px;
+        }
+        .navbar .tlogo {
+            color: white;
+            margin: 0;
+            font-size: 24px;
+        }
+        .navbar nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .navbar nav ul li {
+            margin: 0 10px;
+        }
+        .navbar nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .navbar nav ul li a.menu:hover {
+            text-decoration: underline;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 0;
+            gap: 40px; 
+        }
+        .row .col-1, .row .col-2 {
+            flex: 1;
+            padding: 20px;
+        }
+        .row .col-2 img.rex {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        h2, h3 {
+            text-align: center;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        footer {
+            padding:  5px;
+            background-color: #333;
+            color: white;
+            text-align: left;
+        }
+        footer .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        footer .col-1 {
+            flex: 1;
+            min-width: 200px;
+            margin-bottom: 10px;
+        }
+        footer h5 {
+            margin: 5px 0;
+        }
+        footer p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        footer .museum {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="img/logo.png" id="logo"></a>
+            <h1 class="tlogo">MUSEUM NUSANTARA</h1>
+            <nav>
+                <ul>
+					<li><u><b><a href="welcome.html" class="menu">Home</a></u></b></li>
+					<li><u><b><a href="koleksi.html" class="menu">Collection</a></u></b></li>
+					<li><u><b><a href="pesan.php" class="menu">Ticket</a></u></b></li>
+				</ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Selamat Datang di</h2>
+                <h3>MUSEUM NUSANTARA INDONESIA</h3>
+                <p>Berwisata sambil mengenal INDONESIA</p>
+                <br>
+                <button type="button"><b>mari menjelajah</b></button>
+            </div>
+            <div class="col-2">
+                <img src="img/home.jpg" class="rex">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-1">
+                <h5><i class="fa fa-info" style="color: white"></i> Informasi :</h5>
+                <h5><i class="fa fa-calendar-o" style="color: white"></i> Jam Kunjungan:</h5>
+                <p>Senin-Kamis 08.00-15.00</p>
+                <p>Sabtu-Minggu 08.00-16.00</p>
+                <p>Jumat dan Libur Nasional Tutup</p>
+                <h5><i class="fa fa-address-card" style="color: white"></i> Tiket:</h5>
+                <p>Pelajar/mahasiswa Rp 3.000</p>
+                <p>Umum Rp 5.000</p>
+            </div>
+            <div class="col-1">
+                <h5><i class="fa fa-thumb-tack" style="color: white"></i> ALAMAT</h5>
+                <p>Jalan Raya Taman Mini, Jakarta Timur, DKI Jakarta</p>
+                <h5><i class="fa fa-phone" style="color: white"></i> KONTAK KAMI</h5>
+                <p>Phone : +62081215694822</p>
+                <p>Gmail : @husnasalsabilla@gmail.com</p>
+            </div>
+        </div>
+        <div class="museum">
+            <h5>Museum Nusantara</h5>
+        </div>
+    </footer>
+</body>
+</html>
